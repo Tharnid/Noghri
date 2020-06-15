@@ -23,8 +23,8 @@ export class PostCreateComponent {
 
        const post: Post = { 
 
-        title: this.enteredTitle, 
-        content: this.enteredContent 
+        title: this.enteredTitle,
+        content: this.enteredContent
         };
        this.postCreated.emit(post);
     }
